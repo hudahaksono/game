@@ -26,7 +26,7 @@ body {
   padding-top: 170px;
 }
 body.home-1 {
-  background-image: url("../../assets/images/background/bg-element.jpg");
+  background-color:black;
 }
 body.home-2 {
   background-image: url("../../assets/images/background/bg-element-2.jpg");
@@ -3771,9 +3771,10 @@ a:hover {
   background-color: rgba(0, 0, 0, 0);
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url(".../../../../assets/images/fav.png");
-  transition: all 200ms ease;
-  -webkit-animation-name: rotateMe;
+  background-image: url(".../../../../assets/images/meme.gif"); /* Ganti dengan path file GIF yang sesuai */
+  transition: all 500ms ease;
+}
+  /* -webkit-animation-name: rotateMe;
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
@@ -3830,7 +3831,7 @@ a:hover {
   to {
     transform: rotate(360deg);
   }
-}
+} */
 .page-title__body {
   background: #4c22e1;
   position: relative;

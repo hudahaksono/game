@@ -18,7 +18,7 @@
     function handlePreloader() {
         if ($(".preloader").length) {
             $("body").addClass("page-loaded");
-            $(".preloader").delay(800).fadeOut(0);
+            $(".preloader").delay(2000).fadeOut(0);
         }
     }
 
