@@ -6,11 +6,11 @@
 */
 @font-face {
   font-family: "Gilroy-Bold";
-  src: url("../../assets/font/Gilroy-Bold.ttf") format("truetype");
+  src: url("../../assets/font/Super-Disco.ttf") format("truetype");
 }
 @font-face {
   font-family: "Roboto";
-  src: url("../../assets/font/Roboto-Regular.ttf") format("truetype");
+  src: url("../../assets/font/DK Frozen Memory.ttf") format("truetype");
 }
 * {
   margin: 0;
