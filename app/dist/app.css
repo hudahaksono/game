@@ -23,7 +23,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: #fff;
-  padding-top: 170px;
+  padding-top: 100px;
 }
 body.home-1 {
   background-color:black;
@@ -371,7 +371,7 @@ a:hover {
   left: 0;
   width: 100%;
   z-index: 1000;
-  height: 170px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
