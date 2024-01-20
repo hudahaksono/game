@@ -1,5 +1,5 @@
 /**
-  * Name: Monteno | NFT Marketplace ReactJS Template
+  * Name: Monteno | NFT Marketplace ReactJS Templatepla
   * Version: 1.0.2
   * Author: Themesflat
   * Author URI: http://www.themesflat.com
@@ -1861,7 +1861,7 @@ a:hover {
   max-width: 270px;
   width: 100%;
   padding: 49px 45px 40px;
-  max-height: 326px;
+  max-height: 626px;
   cursor: pointer;
 }
 @media only screen and (max-width: 1200px) {
@@ -1903,7 +1903,8 @@ a:hover {
   padding: 60px 60px 39px;
   margin-bottom: 30px;
   display: flex;
-  height: 426px;
+  height: 526px;
+ 
 }
 
 @media only screen and (max-width: 1024px) {
