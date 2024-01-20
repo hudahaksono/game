@@ -6,11 +6,11 @@
 */
 @font-face {
   font-family: "Gilroy-Bold";
-  src: url("../../assets/font/Super-Disco.ttf") format("truetype");
+  src: url("../../assets/font/SF Comic Script Shaded.ttf") format("truetype");
 }
 @font-face {
   font-family: "Roboto";
-  src: url("../../assets/font/DK Frozen Memory.ttf") format("truetype");
+  src: url("../../assets/font/ComickBook_Simple.ttf") format("truetype");
 }
 * {
   margin: 0;
@@ -1655,7 +1655,11 @@ a:hover {
 }
 
 .bg-2 {
-  background-color: #4526b1;
+  background-color: #f7a305;
+}
+
+.bg-4 {
+  background-color: #dc3545;
 }
 
 .bg-3 {
