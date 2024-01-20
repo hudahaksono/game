@@ -32,6 +32,28 @@
      
     </style>
 
+<script>
+    function showPopup() {
+        // Menampilkan popup
+
+  
+        // Menyalin token ke clipboard
+        const tokenText = document.getElementById("token").innerText;
+        copyToClipboard(tokenText);
+    }
+  
+ 
+  
+    function copyToClipboard(text) {
+        const textarea = document.createElement("textarea");
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
+    }
+  </script>
+
 </head>
 <body class="home-1 header-fixed">
 
@@ -105,7 +127,10 @@
                 <div class="col-xl-5 col-md-6 col-12">
                     <div class="block-text pt-24" style="padding-top: 230px;" >                  
                         <h2 class="title mb-26" data-aos="fade-up">Life hitting hard?  </h2>
-                        <p class="desc mb-43" data-aos="fade-up">F*ck that noise! Dive into Meta Troll, where problems meet their savage demise! </p>                     
+                        <p class="desc mb-43" data-aos="fade-up">F*ck that noise! Dive into Meta Troll, where problems meet their savage demise! </p>   
+                        <div class="additional-box" style="background-color: white; color: black; border-radius: 5px;width: 300px;">
+                            <p id="token" onclick="copyToClipboard(this.innerText)" style="cursor: pointer; padding-left: 30px;">uiiiuuuuuwhu</p>
+                        </div>                  
                     </div>
                 </div>       
             </div>
@@ -259,7 +284,7 @@
                             <a class="h5">
                                 Create a Wallet
                             </a>
-                            <p class="fs-18" style="font-size: 13px;">Get Metamask or your preferred wallet at no cost from either the app store or Google Play Store. For desktop users, acquire the Google Chrome extension by visiting metamask.io. </p>
+                            <p class="fs-18" style="font-size: 15px;">Get Metamask or your preferred wallet at no cost from either the app store or Google Play Store. For desktop users, acquire the Google Chrome extension by visiting metamask.io. </p>
                         </div>
                     </div>
                 </div>
@@ -273,7 +298,7 @@
                             <a class="h5">
                                 Get Some ETH
                             </a>
-                            <p class="fs-18" style="font-size: 13px;">Ensure there's a balance of ETH in your wallet to transition to $TROLL. If you currently lack ETH, you have the option to purchase it directly through Metamask, transfer it from an alternative wallet. </p>
+                            <p class="fs-18" style="font-size: 15px;">Ensure there's a balance of ETH in your wallet to transition to $TROLL. If you currently lack ETH, you have the option to purchase it directly through Metamask, transfer it from an alternative wallet. </p>
                         </div>
                     </div>
                 </div>
@@ -287,7 +312,7 @@
                             <a class="h5">
                                 Go To Unisap
                             </a>
-                            <p class="fs-18" style="font-size: 13px;">Link up with Uniswap by accessing app.uniswap.org either through Google Chrome or the browser within your Metamask app. Establish a connection with your wallet, then insert the $TROLL token address into Uniswap, opt for Troll, and validate your choice.</p>
+                            <p class="fs-18" style="font-size: 15px;">Link up with Uniswap by accessing app.uniswap.org either through Google Chrome or the browser within your Metamask app. Establish a connection with your wallet, then insert the $TROLL token address into Uniswap, opt for Troll, and validate your choice.</p>
                         </div>
                     </div>
                 </div>
@@ -301,7 +326,7 @@
                             <a class="h5">
                                 Switch ETH for Troll
                             </a>
-                            <p class="fs-18" style="font-size: 13px;">Exchange your ETH for $TROLL. Enjoy the advantage of no taxes, eliminating the need to be concerned about purchasing with a designated slippage. However, it's advisable to consider using slippage during periods of market volatility. </p>
+                            <p class="fs-18" style="font-size: 15px;">Exchange your ETH for $TROLL. Enjoy the advantage of no taxes, eliminating the need to be concerned about purchasing with a designated slippage. However, it's advisable to consider using slippage during periods of market volatility. </p>
                         </div>
                     </div>
                 </div>
@@ -489,6 +514,7 @@
                           </li>
                         <li data-aos="fade-up" data-aos-duration="1200"><a href="#"> <img src="assets/images/twitter.png" alt="Telegram Icon" style="height: 70px;width: 70px;"></a></li>
                         <li data-aos="fade-up" data-aos-duration="1400"><a href="#"><img src="assets/images/wp.png" alt="Telegram Icon" style="height: 70px;width: 70px;"></a></li>
+                        <li data-aos="fade-up" data-aos-duration="1400"><a href="https://app.gitbook.com/o/HPaCbgqexi2i765HUXZj/s/8qbwi3hwDeen6qELcAMy/"><img src="assets/images/l1.png" alt="Telegram Icon" style="height: 70px;width: 70px;"></a></li>
                     </ul>
                 </div>
                 <div class="footer_bottom">
