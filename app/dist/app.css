@@ -1894,7 +1894,7 @@ a:hover {
 }
 @media only screen and (max-width: 767px) {
   .home-2 .box-item.s2-m {
-    margin-top: 60px;
+    margin-top: 60px;box
   }
 }
 
@@ -1903,7 +1903,9 @@ a:hover {
   padding: 60px 60px 39px;
   margin-bottom: 30px;
   display: flex;
+  height: 426px;
 }
+
 @media only screen and (max-width: 1024px) {
   .icon-box {
     flex-wrap: wrap;
@@ -2015,7 +2017,7 @@ a:hover {
   left: 49px;
   right: 46px;
   padding: 26px 0px 26px 10px;
-  background: #7153d9;
+  background: #f7a305;
   border-radius: 10px;
   text-align: center;
   opacity: 0;
