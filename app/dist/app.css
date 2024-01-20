@@ -1903,8 +1903,15 @@ a:hover {
   padding: 60px 60px 39px;
   margin-bottom: 30px;
   display: flex;
-  height: 426px;
+  height: 326px;
  
+}
+
+
+@media (max-width: 800px) {
+  .icon-box {
+    height: auto; /* Set tinggi ke otomatis agar dapat disesuaikan dengan kontennya */
+  }
 }
 
 @media only screen and (max-width: 1024px) {
